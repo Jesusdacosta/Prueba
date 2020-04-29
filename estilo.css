@@ -1,0 +1,77 @@
+body {
+	margin:0;
+	font-family:"Tahoma","Helvetica","Arial",sans-serif;
+	text-align: left;
+	background-color:#FFFFFF;
+	box-sizing: content-box;
+
+}
+section#presentacion {
+	height: 600px;
+	background-image:url("imagenes/fondo.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	position: relative;
+	background-position:center; 
+}
+section#caracteristicas{
+	background-color:#fafcff;
+	height:300px; 
+}
+section#universidades {
+	height: 300px;
+}
+ div#principal {
+ color: white;
+ margin:100px 84px;
+ padding: 0px 22px;
+
+}
+div#principal h1 {
+	font-size:47px;
+	line-height: 47px;
+	width: 640px;
+	font-weight: bold;
+	margin:20px 0px;
+}
+div#principal p {
+	font-size: 19px;
+	width:450px;
+	margin:20px 0px;
+
+}
+.button {
+	padding: 10px 22px;
+	border: 1px solid white;
+	border-radius: 4px;
+	text-align: center;
+
+}
+div#principal p.button{
+	font-size:16px; 
+	width: 200px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+a:hover {
+color:grey;	
+}
+header{
+	height: 41px;
+	padding: 22px 44px;
+	display:flex;
+	justify-content:space-between;
+}
+nav ul{
+	margin:0px;
+}
+	
+nav ul li{
+	font-size: 16px;
+	display:inline-flex;
+	justify-content: space-around;
+	padding: 0px 10px;
+}
